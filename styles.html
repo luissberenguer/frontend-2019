@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <style>
+        /* p:first-child {
+            color: red;
+        }
+        p:last-child {
+            color: blue;
+        } */
+
+        p:nth-child(2n) {
+            color: blueviolet;
+        }
+        p:nth-child(2n +1) {
+            color: brown;
+        }
+        p::first-letter{
+            font-size: large;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <p>Gallina 🐔</p>
+    <p>Cerdo 🐷</p>
+    <p>Lobo 🐺</p>
+    <p>Rana🐸</p>
+    <p>Zorro 🦊</p>
+</body>
+</html>
