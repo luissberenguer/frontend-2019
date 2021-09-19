@@ -76,6 +76,8 @@ body {
     color: white;
     font-weight: bold;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 .login__container--register > a:hover {
     text-decoration:underline;
@@ -125,4 +127,16 @@ body {
 }
 .footer a:hover {
     text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+  .login__container {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 100%;
+  }
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
